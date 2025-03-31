@@ -1,4 +1,4 @@
-# Deployed at: https://myworldcupdashboard.render.com (Password: worldcup2023)
+# Deployed at: https://cp321-render.onrender.com/
 
 import numpy as np
 import pandas as pd
