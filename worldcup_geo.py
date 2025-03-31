@@ -79,7 +79,7 @@ years = sorted(df['Year'].unique())
 
 # Step 3: Build the Dash dashboard 
 app = Dash(__name__)
-
+server = app.server
 app.layout = html.Div([
     html.H1("FIFA World Cup Finals Dashboard", style={'text-align': 'center'}),
     dcc.Tabs([
